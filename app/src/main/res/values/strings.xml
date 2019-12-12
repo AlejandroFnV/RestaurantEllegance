@@ -1,0 +1,88 @@
+<resources>
+
+    <!--Connection-->
+    <string name="app_name">Restaurante</string>
+    <string name="tvConnection">Conexión al servidor</string>
+    <string name="tilServer">Dirección IP o URL</string>
+    <string name="btConnect">Conectar</string>
+    <string name="cbRememberConnection">Conectar automáticamente</string>
+    <string name="toastInvalidServer">Dirección IP o URL no válida</string>
+    <string name="nav_logout">Cerrar sesión</string>
+    <string name="server_connection_error">¡Error de conexión con el servidor!</string>
+    <string name="nav_server_logout">Cambiar servidor</string>
+    <string name="btChangeServer">Cambiar servidor</string>
+
+    <!--Login-->
+    <string name="tvLogin">Ingresar</string>
+    <string name="tilUser">Usuario</string>
+    <string name="tilPassword">Contraseña</string>
+    <string name="cbRememberUser">Conectar automáticamente</string>
+    <string name="btLogin">Ingresar</string>
+    <string name="tietInvalidValue">Este campo es requerido</string>
+    <string name="toastLoginFailure">¡Fallo de conexión!</string>
+    <string name="toastInvalidLogin">Usuario o contraseña incorrectas</string>
+
+    <!--Invoice-->
+    <string name="nav_invoice">Facturas abiertas</string>
+    <string name="nav_invoice_history">Historial de facturas</string>
+    <string name="btCloseInvoice">Cerrar factura</string>
+    <string name="tvInvoice">Factura nº</string>
+    <string name="tvTable">Mesa:</string>
+    <string name="tvTotal">Total:</string>
+    <string name="title_activity_invoice">Factura</string>
+    <string name="tvInfo">Información</string>
+    <string name="tvOpenEmployee">Creada por:</string>
+    <string name="tvOpenTime">Hora de creación:</string>
+    <string name="tvOrder">Comandas</string>
+    <string name="toastInvoiceClosed">Factura cerrada</string>
+    <string name="title_activity_add_invoice">Crear factura</string>
+    <string name="tvTableTitle">Selecciona mesa</string>
+    <string name="tvErrorMessage">La mesa está en uso</string>
+    <string name="btAddInvoice">Crear factura</string>
+    <string name="toastInvalidTable">Mesa no válida</string>
+    <string name="toastTableInUse">Mesa ocupada</string>
+    <string name="toastCreateInvoiceError">No se pudo crear la factura</string>
+    <string name="toastInvoiceCreated">Factura creada</string>
+    <string name="tvInvoiceOpenTime">Hora de creación:</string>
+    <string name="tvInvoiceCloseTime">Hora de cierre:</string>
+    <string name="tvInvoiceTotal">Total:</string>
+    <string name="title_activity_inactive_invoice">Factura cerrada</string>
+
+    <!--Orders-->
+    <string name="nav_order">Comandas sin entregar</string>
+    <string name="title_activity_add_order">Añadir comanda</string>
+    <string name="btAddOrders">Añadir comanda(s)</string>
+    <string name="tvDeleteOrder">Eliminar</string>
+    <string name="tvTitleProductName">Producto</string>
+    <string name="tvTitleUnits">Unidades</string>
+    <string name="tvTitlePrice">Precio</string>
+    <string name="tvTotalOrderPrice">Total:</string>
+    <string name="fabOrdersCreated">Comandas enviadas</string>
+    <string name="toastCantUpdate">No se pudo actualizar</string>
+    <string name="tvTitleDelivered">Entregado</string>
+    <string name="tvTitleTotal">Total</string>
+    <string name="state_delivered_yes">sí</string>
+    <string name="state_delivered_no">no</string>
+    <string name="tvOrderNum">Comanda nº</string>
+    <string name="tvProductTitle">Producto:</string>
+    <string name="tvOrderUnits">Unidades:</string>
+    <string name="tvOrderInvoice">Factura:</string>
+    <string name="toastOrderNotUpdated">No se pudo realizar la entrega</string>
+    <string name="toastOrderUpdated">Comanda entregada</string>
+    <string name="tvCloseEmployee">Cerrada por:</string>
+    <string name="tvCloseTime">Hora de cierre:</string>
+    <string name="btAddOrder">Nueva comanda</string>
+
+    <!---->
+    <string name="title_menu_data">Datos</string>
+    <string name="title_activity_edit_account">Editar cuenta</string>
+    <string name="tvAccount">Editar cuenta</string>
+    <string name="btUpdate">Actualizar</string>
+    <string name="toastUpdateFailed">No se pudo actualizar, puede que el nombre de usuario esté en uso</string>
+    <string name="toastUserUpdated">Usuario actualizado</string>
+    <string name="tvNoData">No hay datos</string>
+
+    <!--PrintInvoice-->
+    <string name="btPrint">Imprimir</string>
+
+</resources>
